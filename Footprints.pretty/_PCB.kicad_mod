@@ -1,0 +1,89 @@
+(footprint "_PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c480f24-5c7a-4473-a944-83b9db4c2dc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43361205-46f5-42a5-97e8-cbfcb734a638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19270450-34e1-4346-82a1-601cb1bfb624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1bce0d3-7e29-40f1-9a5a-3443982e5ea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "Sicherungskarte.kicad_sch")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${TITLE}_${ISSUE_DATE}"
+		(at -40 -12 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91694680-ab5b-4329-99c1-7388e72a791e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -40.5 -13 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79faf30a-629d-42df-8461-e98298d74ae3")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.0125)
+			)
+			(justify left)
+		)
+	)
+	(embedded_fonts no)
+)
